@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamaho do seu navegador</p>
+
+    <picture>
+       <source media="(min-width:750px )" srcset="imagens/fotop.png" type="image/">
+        <source media="(max-width: 1000px)" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="imagem flexivel">
+    </picture>HTML5</p>
+    <audio src="midia/natal.mp3" controls autoplay></audio>
+    <!--mp3 wav ogg-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/ano novo.ogg" type="audio/ogg">
+        <source src="midia/natal.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reprduzir audio. <a href="midia/natal.mp3">Clique aqui para baixar o arquivo mp3</a></p>
+
+    </audio>
+
+</body>
+</html>
