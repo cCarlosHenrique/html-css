@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tabela 4</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 10px;
+           
+        }
+
+        th:Hover {
+            background-color: rgb(176, 243, 113);
+        }
+
+        td:hover {
+            background-color: rgb(133, 201, 178);
+        }
+
+        td.q1:hover {
+            background-color: rgb(102, 129, 219);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicío de Tabela</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td class="q1" >Alien</td>
+                <td class="q1" >Rambo</td>
+                <td class="q1" >Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td class="q1" >Hulk</td>
+                <td class="q1" >Inception</td>
+                <td class="q1" >Batman</td>
+            </tr>
+            <tr>
+                <td>Cláudia Melo</td>
+                <td class="q1" >Oblivion</td>
+                <td class="q1" >Matrix</td>
+                <td class="q1" >Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td class="q1" >intocáveis</td>
+                <td class="q1" >Amnésia</td>
+                <td class="q1" >Gladiador</td>
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td class="q1" >Wall-E</td>
+                <td class="q1" >Oldboy</td>
+                <td class="q1" >Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td class="q1" >Star Wars 5</td>
+                <td class="q1" >Taxi Driver</td>
+                <td class="q1" >Toy Story</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
