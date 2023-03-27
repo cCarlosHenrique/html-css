@@ -47,14 +47,20 @@
         </caption>
         <thead>
             <tr>
-                <th>Grupos</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
             </tr>
         </thead>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td class="q1" >Alien</td>
                 <td class="q1" >Rambo</td>
@@ -73,7 +79,7 @@
                 <td class="q1" >Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th scope="rowgroup" rowspan="3">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td class="q1" >intocáveis</td>
                 <td class="q1" >Amnésia</td>
